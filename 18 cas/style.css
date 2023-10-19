@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
+    background-size:cover;
+}
+.corner{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.google_apps{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    color: white;
+    position: relative;
+    top:7px;
+    border-radius: 30px;
+    transition: 200ms;
+}
+.googleapps{
+    height: 32px;
+    width: 32px;
+    position:relative;
+    top:3px;
+    left: 3px;
+    
+}
+.pfp{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top:5px;
+    border-radius: 20px;
+}
+.gmail{
+    font-size: 6pt;
+    margin-right: 13px;
+    position: relative;
+    top:3px;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+    transition: 200ms;
+    height: 30px;
+}
+.images{
+    font-size: 6pt;
+    margin-right: 25px;
+    position: relative;
+    top:3px;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+    transition: 200ms;
+    height: 30px;
+}
+.gmail:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+    cursor: pointer;
+}
+.gmail h1{
+    margin-top: 0;
+    margin-bottom:0;
+    position:relative;
+    top:5px;
+}
+.images:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+    cursor: pointer;
+}
+.images h1{
+    margin-top: 0;
+    margin-bottom:0;
+    position:relative;
+    top:5px;
+}
+.google_apps:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+    cursor: pointer;
+}
+.pfp:hover{
+    cursor: pointer;
+}
+.logo{
+    width: 270px;
+    position: relative;
+    left: 41%;
+    top: 120px;
+}
+.google_logo{
+    width: 100%;
+}
+.search{
+    border-radius: 30px;
+    width:500px;
+    height: 30px;
+    border-style: none;
+    padding-left: 40px;
+    background-image: url(search-interface-symbol.png);
+    background-size: 20px;
+    background-repeat:;
+}

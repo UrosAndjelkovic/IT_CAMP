@@ -1,0 +1,79 @@
+header{
+    background-color: rgb(83, 83, 83);
+    height: 200px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neki_title{
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40pt;
+}
+body {
+    background-image:url(402.gif);
+
+}
+.neki_div{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.neki_link{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+    color: black;
+}
+h1{
+    padding: 10px;
+    display: inline;
+    margin-top: 10px;
+}
+.neko_dugme{
+    display: inline;
+    border-radius: 0px;
+    background-color: white;
+    width: 200px;
+    border: 10px solid black;
+    border-style:ridge;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15pt;
+    color: black;
+    margin-left: 26%;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+footer{
+    background-color: white;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.svg_prvi{
+    margin: 10px;
+    margin-top: 80px;
+    margin-right: 25px;
+    height: 50px;
+}
+.svg_drugi{
+    margin: 10px;
+    margin-top:80px;
+    margin-left: 25px;
+    height: 50px;
+}
+.neko_dugme:hover{
+    background-image: url(402.gif);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+::selection{
+    background: black;
+    color:white;
+}

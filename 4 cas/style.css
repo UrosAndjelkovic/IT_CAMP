@@ -1,0 +1,18 @@
+.t1{
+    color: green;
+    font-size: 20pt;
+}
+.t2{
+    background-color: rgb(0, 255, 0);
+}
+.cont{
+ border: 7px double blue; margin-right: 1390px;
+ border-radius: 20px;
+}
+.inpt{
+    border-radius: 10px;
+    border-style: dashed;
+    width: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}

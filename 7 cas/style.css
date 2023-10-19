@@ -1,0 +1,42 @@
+.tabela{
+    border: 5px solid black;
+    border-collapse: collapse;
+    background-color: rgb(123, 224, 255);
+    margin-left:auto;
+    margin-right: auto;
+
+}
+th {
+    border: 5px double black;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 50pt;
+    text-align: center;
+}
+td {
+    border: 5px double black;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(59, 164, 255);
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 40pt;
+    text-align: center;
+    
+}
+td:hover{
+    background-color: red;
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+th:hover{
+    background-color:rgb(122, 0, 0);
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
